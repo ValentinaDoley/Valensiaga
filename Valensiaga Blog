@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valentina's Blog</title>
+    <style>
+        @media (max-width: 768px) {
+    header {
+        font-size: 1.5rem; /* Smaller header text on mobile */
+    }
+    .container {
+        padding: 10px; /* Reduce padding for mobile screens */
+    }
+    article {
+        margin-bottom: 10px; /* Adjust margin between posts */
+    }
+    nav a {
+        padding: 5px; /* Smaller padding in the nav links */
+    }
+    .fairy-image {
+        max-width: 80px; /* Adjust size of the fairy image */
+    }
+}
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); /* Adding a curly font */
+        
+        body {
+            font-family: 'Dancing Script', cursive;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/736x/5d/bd/d8/5dbdd8e3f77e5b00312e0536a8b1d75c.jpg'); /* Background image from Pinterest */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.7); /* Slight transparency to make text visible */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(68, 68, 68, 0.7); /* Transparent background for nav */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: rgba(85, 85, 85, 0.7);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency for better readability */
+            border-radius: 10px;
+        }
+        article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        article h2 {
+            color: #333;
+        }
+        article p {
+            color: #555;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .fairy-image {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="「 ART🗼!! 」.jpeg" alt="Animated Winx Club Fairy" style="width:400px;height:auto">
+    <h1>Welcome to Valentina's Blog</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <article>
+        <h2>Blog Post 1</h2>
+        <p>Welcome to my first blog post! This is an example of what a simple blog post could look like. You can write about anything you like!</p>
+    </article>
+
+    <article>
+        <h2>Blog Post 2</h2>
+        <p>This is another blog post example. Continue adding posts to engage your readers!</p>
+    </article>
+</div>
+
+<footer>
+    <p>&copy; 2024 Valentina's Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
